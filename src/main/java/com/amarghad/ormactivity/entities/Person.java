@@ -19,4 +19,8 @@ public abstract class Person implements Serializable {
     @Column(unique = true, nullable = false)
     private String email;
 
+    public String getFullName() {
+        return firstName + " " + lastName;
+    }
+
 }
