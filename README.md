@@ -1,14 +1,21 @@
-package com.amarghad.ormactivity.web;
+# Gestion des patients
 
-import com.amarghad.ormactivity.entities.Patient;
-import com.amarghad.ormactivity.repository.PatientRepository;
-import lombok.AllArgsConstructor;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.*;
+Ce compte rendu présente la partie web d'une application Spring Boot qui permet de gérer des informations de patients. L'application utilise JPA pour l'accès aux données, FreeMarker comme moteur de template et Apache Maven pour la gestion des dépendances.
 
+## Fonctionnalités
+
+L'application offre les fonctionnalités suivantes :
+
+* **Affichage de la liste des patients :** La liste des patients est affichée avec un système de pagination et une barre de recherche.
+* **Création de nouveaux patients :** Un formulaire permet de saisir les informations des nouveaux patients.
+* **Modification des patients :** Un formulaire permet de modifier les informations d'un patient.
+* **Suppression des patients :** La suppression d'un patient est possible à partir de la liste des patients.
+
+## Couche web : controlleurs
+
+Voici un exemple du code du contrôleur web responsable de la gestion des patients :
+
+```java
 @Controller
 @RequestMapping("/patients")
 @AllArgsConstructor
@@ -78,3 +85,14 @@ public class PatientController {
 
 
 }
+```
+
+## Démonstration vidéo
+
+Voici une vidéo illustrant le fonctionnement de l'application :
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/bALAtdLcq3s/0.jpg)](https://www.youtube.com/watch?v=bALAtdLcq3s)
+
+## Conclusion
+
+L'application développée avec Spring Boot, JPA, FreeMarker et offre une interface web simple et efficace pour la gestion des patients. L'architecture MVC permet de séparer clairement le code du contrôleur, du modèle et de la vue. 

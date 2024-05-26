@@ -15,12 +15,12 @@
                             <div class="grid grid-cols-2 gap-3 mb-4">
                                 <div class="form-floating">
                                     <label class="block mb-2 text-sm" for="first_name">Prénom</label>
-                                    <input id="first_name" type="text" class="bg-slate-50 focus:bg-white text-sm outline-none border border-slate-200 text-gray-900 rounded-md focus:ring-2 transition block w-full py-2 px-3 focus:ring-blue-500 focus:border-blue-500" name="first-name" value="" required="" autocomplete="first_name" autofocus="" placeholder="">
+                                    <input id="first_name" type="text" class="bg-slate-50 focus:bg-white text-sm outline-none border border-slate-200 text-gray-900 rounded-md focus:ring-2 transition block w-full py-2 px-3 focus:ring-blue-500 focus:border-blue-500" name="firstName" value="" required="" autocomplete="first_name" autofocus="" placeholder="">
                                     <!-- <span class="text-red-500 text-sm">{{ $message }}</span> -->
                                 </div>
                                 <div class="form-floating">
                                     <label class="block mb-2 text-sm" for="last_name">Nom</label>
-                                    <input id="last_name" type="text" class="bg-slate-50 focus:bg-white text-sm outline-none border border-slate-200 text-gray-900 rounded-md focus:ring-2 transition block w-full py-2 px-3 focus:ring-blue-500 focus:border-blue-500" name="last-name" value="" required="" autocomplete="last_name" autofocus="" placeholder="">
+                                    <input id="last_name" type="text" class="bg-slate-50 focus:bg-white text-sm outline-none border border-slate-200 text-gray-900 rounded-md focus:ring-2 transition block w-full py-2 px-3 focus:ring-blue-500 focus:border-blue-500" name="lastName" value="" required="" autocomplete="last_name" autofocus="" placeholder="">
                                     <!-- <span class="text-red-500 text-sm">{{ $message }}</span> -->
                                 </div>
                             </div>
@@ -31,7 +31,7 @@
                             </div>
                             <div>
                                 <label class="block mb-2 text-sm" for="date">Date de naissance</label>
-                                <input id="date" name="date" type="date" class="mb-2 bg-slate-50 focus:bg-white outline-none border border-slate-200 text-gray-900 text-sm rounded-md focus:ring-2 transition block w-full py-2 px-3 focus:ring-blue-500 focus:border-blue-500">
+                                <input id="date" name="birthDate" type="date" class="mb-2 bg-slate-50 focus:bg-white outline-none border border-slate-200 text-gray-900 text-sm rounded-md focus:ring-2 transition block w-full py-2 px-3 focus:ring-blue-500 focus:border-blue-500">
                                 <p class="text-gray-600 text-xs">Saisir la date de l'opération lorsqu'elle a été réalisée.</p>
                             </div>
                             <div class="grid grid-cols-2">
